@@ -1,55 +1,63 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Demon Slayer</title>
-</head>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <title>Demon Slayer</title>
+      <link rel="stylesheet" href="./css/one_page_website.css">
+    </head>
+
 <body>
 
 <header>
   <h1>Demon Slayer</h1>
 </header>
 
-<nav>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#Characters">Pictures</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#video">Video</a></li>
-  </ul>
-</nav>
+		<!-- NAV -->
+<div class="wrap">
+    <div class="menu-container">
+        <ul class="menu">
+          <a href="#home" id="link"><li>Home</li></a>
+          <a href="#characters"><li>Pictures</li></a>
+          <a href="#video"><li>Video</li></a>
+          <a href="#contact"><li>Contact</li></a>
+          
+        </ul>
+    </div>
+</div>
+    <!-- END NAV -->
 
 <section id="home">
   <h2>Caracters</h2>
-  <p>These are the main characters in the show</p>
+    <p>These are the main characters in the show</p>
 </section>
 
-<section id="Characters">
+<section id="characters">
   <h2>Kimetsu no Yaiba</h2>
-  <img src="./images/Tanjiro.webp" alt="Tanjiro">
-  <img src="./images/Zenitsu.webp" alt="Zenitsu">
-  <img src="./images/Inosuke.webp" alt="Inosuke">
-  
-  <img src="./images/Nezuko.webp" alt="Nezuko">
+    <img src="./images/Tanjiro.webp" alt="Tanjiro">
+    <img src="./images/Zenitsu.webp" alt="Zenitsu">
+    <img src="./images/Inosuke.webp" alt="Inosuke">
+    <img src="./images/Nezuko.webp" alt="Nezuko">
 </section>
 
 <section id="video">
   <h2>Video</h2>
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/nDEfCytREvA" title="All 12 HASHIRA In Demon Slayer Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/nDEfCytREvA" title="All 12 HASHIRA In Demon Slayer Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
-  <form action="contact.php" method="post">
-    <input type="text" name="name" placeholder="Your name">
-    <input type="email" name="email" placeholder="Your email">
-    <textarea name="message" placeholder="Your message"></textarea>
-    <input type="submit" value="Send">
-  </form>
+    <form action="contact.php" method="post">
+      <input type="text" name="name" placeholder="Your name">
+      <input type="email" name="email" placeholder="Your email">
+      <textarea name="message" placeholder="Your message"></textarea>
+      <input type="submit" value="Send">
+    </form>
 </section>
 
 <footer>
   <p>Copyright &copy; 2023 My Name</p>
 </footer>
 
-</body>
+  </body>
 </html>
